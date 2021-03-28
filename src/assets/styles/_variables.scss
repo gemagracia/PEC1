@@ -1,0 +1,11 @@
+@use "sass:color";
+
+$font-family-sans-serif: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+
+$color-bg:color.scale(#F2DC6D, $lightness: 80%);;
+$color-txt-black:#2C2C2C;
+$color-txt-white:#FFFFFF;
+$color-txt-gray:#888;
+
+$bg-primary:#D90B42;
+$bg-secondary:#2C3B59;

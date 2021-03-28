@@ -1,0 +1,42 @@
+body {
+  font-family: $font-family-sans-serif;
+  background-color: $color-bg;
+  color: $color-txt-black;
+}
+
+.bg-primary,.progress-bar{
+  background-color: $bg-primary !important;
+}
+
+header{
+  padding-top:5rem;
+  img{
+    width: 200px;
+  }
+}
+
+#about{
+  a{
+    color:$bg-primary;
+  }
+}
+
+#experience, #education{
+  div.txt_white{
+    color:$color-txt-white;
+  }
+  div.txt_gray{
+    color:$color-txt-gray;
+  }
+  div p{
+    font-size:14px;
+  }
+}
+
+footer{
+  border-top:1px dotted $color-txt-gray;
+  .btn-link{
+    font-size:1.5em;
+    color:$color-txt-gray;
+  }
+}
